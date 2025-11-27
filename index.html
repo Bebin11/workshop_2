@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bebin Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <header id="hero-section">
+        <video autoplay loop muted playsinline id="bg-video">
+            <source src="sample.mp4" type="video/mp4">
+            Your browser does not support video.
+        </video>
+
+        <nav class="navbar">
+            <span class="brand-logo">Bebin</span>
+
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#section-about">About</a></li>
+                <li><a href="#section-skills">Skills</a></li>
+                <li><a href="#section-projects">Projects</a></li>
+                <li><a href="#section-contact">Contact</a></li>
+            </ul>
+
+            <button class="menu-btn" id="menu-btn" aria-expanded="false">
+                ☰
+            </button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>BEBIN JUNG THAPA</h1>
+            <p>Frontend Developer & UI/UX Enthusiast</p>
+        </div>
+    </header>
+
+    <section id="section-about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I’m Bebin, a passionate Frontend Developer and UI/UX Enthusiast.  
+            I love crafting interactive digital experiences and building beautiful,  
+            user-centered websites. I focus on clean design, smooth interactions,  
+            and modern responsive layouts that feel great to use.
+        </p>
+    </section>
+
+    <section id="section-skills" class="section">
+        <h2>Skills</h2>
+        <div class="skills-wrapper">
+            <div class="skill-item">HTML</div>
+            <div class="skill-item">CSS</div>
+            <div class="skill-item">JavaScript</div>
+            <div class="skill-item">React</div>
+        </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="section-projects" class="section">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+            <div class="project-box">Project 1</div>
+            <div class="project-box">Project 2</div>
+            <div class="project-box">Project 3</div>
+        </div>
+    </section>
+
+    <section id="section-contact" class="section">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+            <input type="text" id="input-name" placeholder="Your Name" required />
+            <input type="email" id="input-email" placeholder="Your Email" required />
+            <textarea id="input-message" placeholder="Your Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div id="contact-feedback"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 BEBIN – All rights reserved.</p>
+    </footer>
+s
+    <script src="script.js"></script>
+</body>
+</html>
