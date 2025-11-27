@@ -8,7 +8,6 @@ menuBtn.addEventListener("click", () => {
     menuBtn.setAttribute("aria-expanded", expanded);
     menuBtn.textContent = expanded ? "✕" : "☰";
 });
-
 const contactForm = document.getElementById("contact-form");
 const feedback = document.getElementById("contact-feedback");
 

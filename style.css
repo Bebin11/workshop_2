@@ -25,7 +25,6 @@ h2 {
     flex-direction: column;
     justify-content: space-between;
 }
-
 #bg-video {
     position: absolute;
     top: 0;
