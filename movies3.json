@@ -1,0 +1,16 @@
+{
+  "movies": [
+    {
+      "id": "dba1",
+      "title": "Harry Potter",
+      "genre": "Magic",
+      "year": 2007
+    },
+    {
+      "id": "8a7b",
+      "title": "Stranger Things",
+      "genre": "Action, Magic, Drama",
+      "year": 2010
+    }
+  ]
+}
